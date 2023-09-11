@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "user_projects",
+  "info": {
+    "singularName": "user-project",
+    "pluralName": "user-projects",
+    "displayName": "UserProjects"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Media": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "ProjectDate": {
+      "type": "datetime"
+    },
+    "ProjectLink": {
+      "type": "string"
+    }
+  }
+}
